@@ -1,0 +1,53 @@
+:root {
+  --healthcare-blue: #3B82F6;
+  --healthcare-cyan: #06B6D4;
+  --white: #FFFFFF;
+  --light-gray-bg: #F9FAFB;
+  --lungs-red: #EF4444;
+  --teeth-orange: #F97316;
+  --bone-gray: #6B7280;
+  --dentist-indigo: #4F46E5;
+  --physio-orange: #F97316;
+  --selected-blue: #3B82F6;
+  --slot-active: #DBEAFE;
+  --slot-secondary: #F3E8FF;
+  --slot-default: #F3F4F6;
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+  --success-green: #10B981;
+  --warning-amber: #F59E0B;
+  --error-red: #EF4444;
+  --info-blue: #3B82F6;
+  --body-gradient: linear-gradient(180deg, #EFF6FF 0%, #FFFFFF 100%);
+  --activity-gradient: linear-gradient(90deg, #3B82F6 0%, #06B6D4 100%);
+  --card-border: #E5E7EB;
+  --input-border: #D1D5DB;
+}
+
+body, .bg-light {
+  background: var(--light-gray-bg) !important;
+}
+
+.card {
+  border: 1px solid var(--card-border) !important;
+  background: var(--white) !important;
+}
+
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid var(--card-border);
+  background: var(--white);
+}
+
+.text-primary {
+  color: var(--healthcare-blue) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+} 
